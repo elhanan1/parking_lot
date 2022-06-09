@@ -1,6 +1,6 @@
 
 
-document.getElementById('submitButton').onclick = function(){
+//document.getElementById('submitButton').onclick = function(){
     let dateIn = new Date(document.getElementById("datetimeIn").value);
     let dateOut = new Date(document.getElementById("datetimeOut").value);
     let discount = document.getElementById("buttonDiskount").checked;
